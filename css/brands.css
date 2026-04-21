@@ -637,3 +637,10 @@
     --button-text: #ffffff;
     --button-background: #2457f5;
 }
+
+/* Nintendo Switch Profile */
+.button-nintendo-switch-profile {
+    --button-text: #ffffff;
+    --button-background: #f52424;
+    --button-border: 1px solid #000000;
+}

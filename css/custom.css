@@ -9,7 +9,7 @@ body {
   background-image: url("/images/background.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: scroll; /* 'fixed' often causes lag or scaling issues on mobile */
+  background-attachment: fixed; /* 'fixed' often causes lag or scaling issues on mobile */
   background-size: cover;
 
   /* Fallback color while image loads */

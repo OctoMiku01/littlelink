@@ -5,5 +5,24 @@
 
 /* Backgroud */
 body {
-background-image: url("/images/background.png")
+  /* Ensure the background covers the entire screen without stretching */
+  background-image: url("/images/background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll; /* 'fixed' often causes lag or scaling issues on mobile */
+  background-size: cover;
+
+  /* Fallback color while image loads */
+  background-color: #f0f0f0; 
+
+  /* Ensures the body spans the full viewport height */
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Optional: Use a smaller/compressed image for mobile screens */
+@media (max-width: 768px) {
+  body {
+    background-image: url("/images/background-mobile.png");
+  }
 }

@@ -644,3 +644,10 @@
     --button-background: #f52424;
     --button-border: 1px solid #000000;
 }
+
+/* Keep Android Open */
+.button-keep-android-open {
+    --button-text: #ffffff;
+    --button-background: #188f00;
+    --button-border: 1px solid #000000;
+}

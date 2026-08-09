@@ -651,3 +651,10 @@
     --button-background: #188f00;
     --button-border: 1px solid #000000;
 }
+
+/* Medal */
+.button-medal {
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #FFFFFF;
+}

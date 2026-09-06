@@ -658,3 +658,9 @@
     --button-background: #000000;
     --button-border: 1px solid #FFFFFF;
 }
+
+/* Fluxer */
+.button-fluxer {
+    --button-text: #ffffff;
+    --button-background: #2457f5;
+}
